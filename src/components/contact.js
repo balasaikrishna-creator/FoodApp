@@ -44,7 +44,7 @@ function Contact() {
 
     return (
         <div style={{ backgroundColor: "black", height: "86.7vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
-            <p style={{ color: "white", marginBottom: "20px" , fontWeight : "bold" , fontSize : "25px" , color :"#b8bca5"}}>Whatever your feedback, we’d love to hear from you.</p>
+            <p style={{ marginBottom: "20px" , fontWeight : "bold" , fontSize : "25px" , color :"#b8bca5"}}>Whatever your feedback, we’d love to hear from you.</p>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "80%", maxWidth: "1200px" }}>
                 <div style={{ width: "50%" }}>
                     <img src={contactPic} alt="Contact Us" style={{ maxHeight: "80vh" }} />
