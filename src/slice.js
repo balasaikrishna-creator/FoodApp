@@ -19,9 +19,12 @@ const itemsSlice = createSlice({
         state.selectedItems.splice(index, 1);
       }
     },
+    resetState:() =>{
+      return initialState
+    }
   },
 });
 
 
-export const { addItem, removeItem } = itemsSlice.actions;
+export const { addItem, removeItem,resetState } = itemsSlice.actions;
 export default itemsSlice.reducer;
