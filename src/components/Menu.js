@@ -195,7 +195,7 @@ function Menu() {
           {selectedItems.length} item(s) selected
         </p>
         <Link to="/cart">
-          <Button style={{fontWeight : "600"}} className="menu-footer-button">View Cart</Button>
+          <Button style={{fontWeight : "600"}} className="menu-footer-button">{"View Cart "}</Button>
         </Link>
       </footer>
     )}
